@@ -199,3 +199,34 @@ hr {
     font-weight: bold;
     text-transform: uppercase;
 }
+
+@media screen and (width < 800px) {
+    header {
+        position: relative;
+    }
+    header .right {
+        padding: 0;
+    }
+    iframe {
+        width: 350px;
+    }
+    .container {
+        width: 100%;
+    }
+    hr, .left {
+        display: none;
+    }
+    .container, nav, section.pack .container {
+        flex-direction: column;
+    }
+    header .container {
+        height: 100%;
+    }
+    section {
+        width: 100%;
+    }
+    section.about img {
+        max-width: 100px;
+        max-height: 100px;
+    }
+}
