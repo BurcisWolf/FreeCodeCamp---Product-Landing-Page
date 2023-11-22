@@ -117,8 +117,43 @@ section.about .container .item p {
     padding: 0 0 0 10px;
     margin: 8px 0 0 0;
 }
-section.info h2 {
+section.pack h2 {
     font-size: 32px;
+}
+section.pack .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    gap: 10px;
+}
+section.pack .container .item {
+    flex-basis: 100%;
+    margin: 0 auto;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 10px;
+}
+section.pack .container .item h4 {
+    font-size: 20px;
+    color: #333740;
+    border-bottom: 2px solid #18a3dd;
+}
+section.pack .container .item p {
+    margin: 5px 0 5px 0;
+    text-align: left;
+}
+section.pack .container .item button {
+    margin: 10px 0 10px 0;
+    padding: 10px 30px 10px 30px;
+    background-color: #18a3dd;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    transition: all 0.5s ease;
+}
+section.pack .container .item button:hover {
+    background-color: #0f6d96;
 }
 /* Other styling */
 hr {
