@@ -115,7 +115,7 @@ section.about .container .item p {
     border-left: 4px solid #18a3dd;
     border-radius: 2px;
     padding: 0 0 0 10px;
-    margin: 5px 0 0 0;
+    margin: 8px 0 0 0;
 }
 section.info h2 {
     font-size: 32px;
@@ -125,4 +125,8 @@ hr {
     width: 800px;
     border: 1.5px solid #18a3dd;
     border-radius: 2px;
+}
+.bold {
+    font-weight: bold;
+    text-transform: uppercase;
 }
