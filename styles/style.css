@@ -170,7 +170,7 @@ section.news input#email {
     border: none;
     border-bottom: 1px solid #18a3dd;
 }
-section.news input#Submit {
+section.news input#submit {
     color: white;
     background-color: #18a3dd;
     padding: 5px 0 5px 5px;
@@ -178,7 +178,7 @@ section.news input#Submit {
     border-radius: 10px;
     border: none;
 }
-section.news input#Submit:hover {
+section.news input#submit:hover {
     background-color: #0f6d96;
 }
 footer {
