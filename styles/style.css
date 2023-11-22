@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #ffffff;
+}
+
+/* blue : #18a3dd , sligtly black #333740 , not fully white #333740 , #grey f1f4f5*/
