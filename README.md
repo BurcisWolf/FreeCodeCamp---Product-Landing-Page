@@ -11,7 +11,7 @@
 <h2>Features</h2>
 - Responsive Design
 
-<h2>Others/h2>
+<h2>Others</h2>
 - Images used - <a href="https://www.uipixels.com/product-landing-page-psd/">LINK</a>
 
 
